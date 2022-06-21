@@ -2,11 +2,11 @@
   uses: lannonbr/issue-label-manager-action@3.0.1
   
   on: issues
-name: Create Default Labels
-jobs:
-  labels:
-    name: DefaultLabelsActions
-    runs-on: ubuntu-latest
+  name: Create Default Labels
+    jobs:
+      labels:
+        name: DefaultLabelsActions
+        runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@1.0.0
       - uses: lannonbr/issue-label-manager-action@3.0.0
