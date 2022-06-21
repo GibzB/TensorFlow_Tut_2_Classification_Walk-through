@@ -1,3 +1,9 @@
+[ 
+  { "name" : "Foobar", "color" : "f000ff", "description" : "This was updated with GitHub Actions!" }, 
+  { "name" : "baz", "color" : "000000", "description" : "just black" },
+  { "name" : "Docs", "color" : "0000ff", "description" : "Documentation label :)" } 
+]
+
 on: issues
 name: Create Default Labels
 jobs:
